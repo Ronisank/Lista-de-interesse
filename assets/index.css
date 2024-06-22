@@ -100,9 +100,16 @@ header h1 {
     border-radius: 5px;
     color: #44546A;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
     
 }
-
+.btn-remove button{
+    background: #fff;
+    cursor: pointer;
+    border: 0;
+    
+}
 .news {
     position: absolute;
     bottom: 32px;
