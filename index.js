@@ -21,13 +21,12 @@ function include() {
 
     addElement.appendChild(addButton);
     addList.appendChild(addElement);
-    
+
     includeInput.value = '';
     removeItem();
 }
 function listClear() {
     interestList = [];
-    addList.innerHTML = '';
     localStorage.clear();
 }
 function removeItem() {
