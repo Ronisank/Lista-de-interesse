@@ -82,7 +82,7 @@ async function getListApi() {
 };
 function updateNews() {
     getListApi();
-    setTimeout(updateNews, 5000);
+    setTimeout(updateNews, 6000);
 };
 getListApi();
 updateNews();
