@@ -9,10 +9,12 @@
   <p>Feito uma requisição para a API do IBGE de notícias utilizando o método fetch().
     Após recuperar os dados, foi convertido o resultado para JSON e obtendo o primeiro item da lista na propriedade items.</p>
     
-  <p>Criado também uma função para recuperar os elementos salvos no localStorage</p>
+  <p>Criado também uma função para adicionar e recuperar os elementos salvos no localStorage</p>
 
-  <p>Neste projeto foi usado o setInterval para recuperar a lista e atualizá-la a cada 1 segundo,
-    usado também na seção de noticias para atualizar a cada 6 segundos.</p>
+  <p>Usado também a manipulação do DOM, para renderizar dinamicamente a página HTML.</p>
+
+  <p>Foi usado o setInterval para recuperar a lista e atualizá-la a cada 1 segundo,
+    usado também o setTimeOut na seção de noticias para atualizar a cada 6 segundos.</p>
 
 <h3>Tecnologia e ferramentas usadas:</h3>
 
